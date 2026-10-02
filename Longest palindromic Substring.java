@@ -25,4 +25,13 @@ class Solution {
         }
         return right - left - 1; // length of the palindrome found
     }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        
+        System.out.println("Test 1 - Input: \"babad\" | Output: \"" + solution.longestPalindrome("babad") + "\"");
+        System.out.println("Test 2 - Input: \"cbbd\" | Output: \"" + solution.longestPalindrome("cbbd") + "\"");
+        System.out.println("Test 3 - Input: \"a\" | Output: \"" + solution.longestPalindrome("a") + "\"");
+        System.out.println("Test 4 - Input: \"ac\" | Output: \"" + solution.longestPalindrome("ac") + "\"");
+    }
 }
